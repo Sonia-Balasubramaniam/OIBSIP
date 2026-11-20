@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="WellNest — premium healthcare and wellness services for a healthier life." />
+  <title>WellNest | Premium Healthcare &amp; Wellness</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== Sticky Navigation ===== -->
+  <header class="navbar" id="home">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="WellNest home">
+        <span class="logo-mark" aria-hidden="true">✚</span> Well<span>Nest</span>
+      </a>
+
+      <!-- Mobile-only hamburger checkbox (CSS-only toggle) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open menu" />
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#features" class="nav-link">Services</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#contact" class="btn btn-sm btn-primary nav-cta">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <span class="eyebrow">Trusted care since 2008</span>
+          <h1>Your Health, <em>Nurtured</em> Like Family</h1>
+          <p>
+            WellNest blends modern medicine with holistic wellness. From routine
+            check-ups to personalised care plans, our certified specialists put
+            your wellbeing first — every single visit.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Book an Appointment</a>
+            <a href="#features" class="btn btn-ghost">Explore Services</a>
+          </div>
+          <ul class="hero-stats" aria-label="Key statistics">
+            <li><strong>25k+</strong><span>Happy patients</span></li>
+            <li><strong>120+</strong><span>Specialists</span></li>
+            <li><strong>15</strong><span>Years of care</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="hero-card main-card">
+            <span class="pulse-dot"></span>
+            <p class="card-title">Heart Rate</p>
+            <p class="card-value">72 <small>bpm</small></p>
+            <div class="ecg">
+              <svg viewBox="0 0 200 50" preserveAspectRatio="none">
+                <polyline points="0,25 30,25 40,8 50,42 60,25 90,25 100,10 110,40 120,25 150,25 160,6 170,44 180,25 200,25" />
+              </svg>
+            </div>
+          </div>
+          <div class="hero-card float-card one">
+            <p class="card-title">Next check-in</p>
+            <p class="card-value sm">Tomorrow, 9:30 AM</p>
+          </div>
+          <div class="hero-card float-card two">
+            <p class="card-title">Wellness score</p>
+            <p class="card-value sm">92 <small>/100</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+          <path d="M0,64 C240,110 480,10 720,42 C960,74 1200,110 1440,56 L1440,120 L0,120 Z" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="about-media reveal" aria-hidden="true">
+          <div class="about-img img-one"></div>
+          <div class="about-img img-two"></div>
+          <div class="about-badge">
+            <strong>98%</strong>
+            <span>Patient satisfaction</span>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <span class="eyebrow">About WellNest</span>
+          <h2>Care That Goes Beyond the Clinic</h2>
+          <p>
+            We believe great healthcare is personal. WellNest was founded on a
+            simple idea: treat every patient like family. Our multi-disciplinary
+            team of doctors, therapists and nutritionists works together to
+            design care plans around your life — not the other way around.
+          </p>
+          <ul class="about-list">
+            <li>
+              <span class="tick" aria-hidden="true">✓</span>
+              <div><strong>Personalised care plans</strong><p>Built around your history, lifestyle and goals.</p></div>
+            </li>
+            <li>
+              <span class="tick" aria-hidden="true">✓</span>
+              <div><strong>Same-day appointments</strong><p>Urgent concerns seen within hours, not weeks.</p></div>
+            </li>
+            <li>
+              <span class="tick" aria-hidden="true">✓</span>
+              <div><strong>Transparent pricing</strong><p>Clear estimates before any treatment begins.</p></div>
+            </li>
+          </ul>
+          <a href="#features" class="btn btn-primary">Learn more about us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Features / Services ===== -->
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Our Services</span>
+          <h2>Everything You Need to Feel Your Best</h2>
+          <p>Six pillars of care, coordinated by one team, under one roof.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">🩺</div>
+            <h3>Primary Care</h3>
+            <p>Comprehensive check-ups, screenings and preventive care for every age group.</p>
+            <a class="feature-link" href="#contact">Learn more →</a>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">🧠</div>
+            <h3>Mental Wellness</h3>
+            <p>Confidential therapy and counselling with licensed psychologists and coaches.</p>
+            <a class="feature-link" href="#contact">Learn more →</a>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">🥗</div>
+            <h3>Nutrition &amp; Diet</h3>
+            <p>Customised meal plans and metabolic testing guided by certified dietitians.</p>
+            <a class="feature-link" href="#contact">Learn more →</a>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">💪</div>
+            <h3>Physio &amp; Rehab</h3>
+            <p>Recovery programs for injury, surgery and chronic pain, tracked in-app.</p>
+            <a class="feature-link" href="#contact">Learn more →</a>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">🧪</div>
+            <h3>Diagnostics</h3>
+            <p>On-site lab and imaging with most results delivered the same day.</p>
+            <a class="feature-link" href="#contact">Learn more →</a>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">🏥</div>
+            <h3>Home Care</h3>
+            <p>Visiting nurses and elder-care support, bringing the clinic to your door.</p>
+            <a class="feature-link" href="#contact">Learn more →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Testimonials ===== -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Testimonials</span>
+          <h2>Stories From Our Patients</h2>
+          <p>Real experiences from people we've had the privilege to care for.</p>
+        </div>
+
+        <div class="testimonial-grid">
+          <figure class="testimonial-card reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>
+              “The care team rebuilt my recovery plan after knee surgery. Six weeks
+              later I was walking pain-free. I've never felt more listened to.”
+            </blockquote>
+            <figcaption>
+              <div class="avatar" aria-hidden="true">AM</div>
+              <div><strong>Ananya Mehta</strong><span>Marketing Lead, Pune</span></div>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial-card reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>
+              “Annual check-ups used to feel like a chore. WellNest's app reminders,
+              same-day labs and honest doctors changed that completely.”
+            </blockquote>
+            <figcaption>
+              <div class="avatar" aria-hidden="true">RS</div>
+              <div><strong>Rahul Sharma</strong><span>Software Engineer, Bengaluru</span></div>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial-card reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>
+              “Their nutrition program helped me manage diabetes without crash diets.
+              Small changes, real results, and a team that genuinely cares.”
+            </blockquote>
+            <figcaption>
+              <div class="avatar" aria-hidden="true">FK</div>
+              <div><strong>Fatima Khan</strong><span>Teacher, Hyderabad</span></div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA Band ===== -->
+    <section class="cta-band">
+      <div class="container cta-inner reveal">
+        <div>
+          <h2>Ready to Put Your Health First?</h2>
+          <p>Book a free 15-minute consultation and meet the team.</p>
+        </div>
+        <a href="#contact" class="btn btn-light">Get Started Today</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer / Contact ===== -->
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo light"><span class="logo-mark" aria-hidden="true">✚</span> Well<span>Nest</span></a>
+        <p>Premium healthcare and wellness, delivered with heart.</p>
+        <address>
+          42 Serenity Avenue, Sector 12<br />
+          Bengaluru, KA 560001<br />
+          <a href="tel:+918000000000">+91 80000 00000</a> ·
+          <a href="mailto:hello@wellnest.example">hello@wellnest.example</a>
+        </address>
+      </div>
+      <nav class="footer-col" aria-label="Site links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Services</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-label="Support links">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#features">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#home">Careers</a></li>
+        </ul>
+      </nav>
+      <div class="footer-col">
+        <h4>Hours</h4>
+        <ul class="hours">
+          <li><span>Mon – Fri</span><span>8:00 – 20:00</span></li>
+          <li><span>Saturday</span><span>9:00 – 17:00</span></li>
+          <li><span>Sunday</span><span>Emergency only</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 WellNest Healthcare. All rights reserved.</p>
+      <p class="made-with">Crafted for the Oasis Infobyte Web Dev Internship</p>
+    </div>
+  </footer>
+
+</body>
+</html>
